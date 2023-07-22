@@ -1,0 +1,11 @@
+@font-face { 
+    font-family: "Jetbrains Monos"; 
+    src: url("fonts/JetBrainsMonaco-Regular.otf");
+}
+@font-face { 
+    font-family: "LXGW WenKai"; 
+    src: url("fonts/LXGWWenKaiScreen.ttf");
+}
+h1, h2, h3, h4, p, div {
+    font-family: 'Jetbrains Monos', 'LXGW WenKai'
+}
