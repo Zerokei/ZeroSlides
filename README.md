@@ -1,7 +1,7 @@
 
 <div align="center">
   <h3 align="center">
-    Chritch's Slide Template
+    ZeroSlides
   </h3>
 
   <p align="center">
@@ -11,10 +11,6 @@
 
 ## Getting Started
 
-```bash
-$ git clone https://github.com/Zerokei/ZeroSlides.git
-$ cd ZeroSlides
-```
 
 ### Prerequisites
 
@@ -24,7 +20,23 @@ $ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash
 $ nvm install 18
 $ nvm use 18
 ```
-- For export to pdf
+
+- slidev
+
+```bash
+$ npm i -g @slidev/cli @slidev/theme-default
+```
+
+### Installation
+
+- Basic
+```bash
+$ git clone https://github.com/Zerokei/ZeroSlides.git
+$ cd ZeroSlides
+$ npm install
+```
+
+- Export pdf
 ```bash
 $ node_modules/.bin/playwright install-deps
 ```
@@ -40,3 +52,5 @@ $ npm run build # build the project and generate the html code
 ## Roadmap
 
 - [x] Export pdf
+- [ ] Static Hosting
+- [ ] Cover
