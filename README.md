@@ -9,6 +9,26 @@
   </p>
 </div>
 
+## Getting Started
+
+```bash
+$ git clone https://github.com/Zerokei/ZeroSlides.git
+$ cd ZeroSlides
+```
+
+### Prerequisites
+
+- npm / node.js
+```bash
+$ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash
+$ nvm install 18
+$ nvm use 18
+```
+- For export to pdf
+```bash
+$ node_modules/.bin/playwright install-deps
+```
+
 ## Usage
 
 ```bash
