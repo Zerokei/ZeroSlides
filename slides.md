@@ -46,3 +46,9 @@ layout: two-cols
 
 1. 一级列表
 2. 一级列表
+
+---
+layout: center
+---
+
+## 居中页面

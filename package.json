@@ -1,4 +1,16 @@
 {
+  "name": "slidev-theme-zero-slide",
+  "version": "0.0.1",
+  "engines": {
+    "node": ">=18.17.0",
+    "slidev": ">=0.42.5"
+  },
+  "keywords": [
+    "slidev-theme",
+    "slidev"
+  ],
+  "license": "MIT",
+  "author": "Chritch <chritch-7@outlook.com>",
   "scripts": {
     "dev": "slidev",
     "export": "slidev export",

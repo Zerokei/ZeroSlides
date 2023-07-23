@@ -1,11 +1,15 @@
+@import url(https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;600&family=Source+Code+Pro&family=JetBrains+Mono:ital,wght@0,300;0,400;0,600;0,700;1,400;1,700);
+@import url(https://gcore.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.1.0/style.css);
+
 @font-face { 
-    font-family: "Jetbrains Monos"; 
+    font-family: "Jetbrains Monaco Local"; 
     src: url("fonts/JetBrainsMonaco-Regular.otf");
 }
 @font-face { 
-    font-family: "LXGW WenKai"; 
+    font-family: "LXGW WenKai Screen Local"; 
     src: url("fonts/LXGWWenKaiScreen.ttf");
 }
 h1, h2, h3, h4, p, div {
-    font-family: 'Jetbrains Monos', 'LXGW WenKai'
+    font-family: 'Jetbrains Monaco Local', 'LXGW WenKai Screen Local', 
+                 'Jetbrains Mono', 'LXGW WenKai Screen'
 }
