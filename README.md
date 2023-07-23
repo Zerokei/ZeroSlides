@@ -43,10 +43,24 @@ $ node_modules/.bin/playwright install-deps
 
 ## Usage
 
+### Local
+
 ```bash
 $ npm run dev # start dev server
 $ npm run export # export to pdf
 $ npm run build # build the project and generate the html code
+```
+
+### NPM
+
+```bash
+$ npm i -g slidev-theme-zero-slide
+```
+
+```md
+---
+theme: zero-slide
+---
 ```
 
 ## Roadmap
