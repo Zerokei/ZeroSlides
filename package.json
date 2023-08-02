@@ -14,9 +14,16 @@
   "scripts": {
     "dev": "slidev",
     "export": "slidev export",
-    "build": "slidev build"
+    "build": "slidev build",
+    "lint": "eslint '**/*.{js,ts,vue,json}'"
   },
   "devDependencies": {
-    "playwright-chromium": "^1.36.1"
+    "playwright-chromium": "^1.14.1"
+  },
+  "dependencies": {
+    "@slidev/types": "^0.22.7",
+    "codemirror-theme-vars": "^0.1.1",
+    "prism-theme-vars": "^0.2.2",
+    "theme-vitesse": "^0.1.12"
   }
 }
