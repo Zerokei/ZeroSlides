@@ -18,7 +18,8 @@
     "lint": "eslint '**/*.{js,ts,vue,json}'"
   },
   "devDependencies": {
-    "playwright-chromium": "^1.14.1"
+    "playwright-chromium": "^1.14.1",
+    "vue": "^3.4.3"
   },
   "dependencies": {
     "@slidev/types": "^0.22.7",

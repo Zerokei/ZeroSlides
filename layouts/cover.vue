@@ -13,7 +13,7 @@ const style = computed(() => handleBackground(props.background, true))
 
 <template>
   <div class="slidev-layout cover" :style="style">
-    <div class="my-auto w-full">
+    <div class="my-20 w-full">
       <slot />
     </div>
   </div>

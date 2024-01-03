@@ -1,14 +1,24 @@
 @import url(https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;600&family=Source+Code+Pro&family=JetBrains+Mono:ital,wght@0,300;0,400;0,600;0,700;1,400;1,700);
 @import url(https://gcore.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.1.0/style.css);
+@import url(https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@700&display=swap);
 
 @font-face { 
-    font-family: "Jetbrains Monaco Local"; 
-    src: url("fonts/JetBrainsMonaco-Regular.otf");
+  font-family: "Jetbrains Monaco Local"; 
+  src: url("fonts/JetBrainsMonaco-Regular.otf");
 }
 @font-face { 
-    font-family: "LXGW WenKai Screen Local"; 
-    src: url("fonts/LXGWWenKaiScreen.ttf");
+  font-family: "LXGW WenKai Screen Local"; 
+  src: url("fonts/LXGWWenKaiScreen.ttf");
 }
+@font-face {
+  font-family: "SmileySans";
+  src: url("fonts/SmileySans-Oblique.ttf.woff2");
+}
+@font-face {
+  font-family: "Merriweather";
+  src: url("fonts/Merriweather-Bold.ttf");
+}
+
 h1, h2, h3, h4, p, div {
     font-family: 'Jetbrains Monaco Local', 'LXGW WenKai Screen Local', 
                  'Jetbrains Mono', 'LXGW WenKai Screen'

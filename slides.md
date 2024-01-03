@@ -1,7 +1,7 @@
 ---
-background: https://source.unsplash.com/collection/94734566/1920x1080
+background: imgs/cover.png
 layout: cover
-transition: fade
+# transition: fade
 # 导出设置
 export:
   format: pdf
@@ -10,10 +10,14 @@ export:
   withToc: true
 ---
 
+<!-- Heading -->
 # Slidev Template
 
-Chritch's Slidev Template  
-by @Chritch
+<!-- SubHeading -->
+## Chritch's Slidev Template
+
+<!-- Date -->
+### 2024.01.07
 
 ---
 
