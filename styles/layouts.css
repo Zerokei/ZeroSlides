@@ -47,7 +47,7 @@
 .slidev-layout.cover {
   h1 {
     /* 字体样式设置 */
-    font-family: 'SmileySans';
+    font-family: 'smiley-sans';
     @apply text-8xl leading-20 text-amber-900;
     padding-bottom: 20px;
     padding-right: 50px;
