@@ -11,7 +11,7 @@ export:
 ---
 
 <!-- Heading -->
-# Slidev Template
+# Slidev Template 模板
 
 <!-- SubHeading -->
 ## Chritch's Slidev Template
