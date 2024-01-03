@@ -47,7 +47,7 @@
 .slidev-layout.cover {
   h1 {
     /* 字体样式设置 */
-    font-family: 'smiley-sans';
+    font-family: 'Smiley Sans';
     @apply text-8xl leading-20 text-amber-900;
     padding-bottom: 20px;
     padding-right: 50px;
@@ -62,7 +62,7 @@
   }
   h2 {
     /* 设置字体为黑体 */
-    font-family: 'Merriweather', 'Noto Sans SC', sans-serif;
+    font-family: 'Noto Sans SC', sans-serif;
     @apply text-5xl mt-10 text-black;
   }
   h3 {
