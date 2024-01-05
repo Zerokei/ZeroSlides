@@ -21,7 +21,7 @@ const style = computed(() => handleBackground(props.background, true))
 
 <style lang="postcss">
 .slidev-layout.cover {
-  background-image: url("../assets/cover.png");
+  background-image: url("https://images.zerokei.top/zero-slides/cover-yellow.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
