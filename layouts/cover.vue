@@ -21,7 +21,7 @@ const style = computed(() => handleBackground(props.background, true))
 
 <style lang="postcss">
 .slidev-layout.cover {
-  background-image: url("../assets/cover.svg");
+  background-image: url("../assets/cover.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
