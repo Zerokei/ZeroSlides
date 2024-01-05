@@ -22,6 +22,9 @@ const style = computed(() => handleBackground(props.background, true))
 <style lang="postcss">
 .slidev-layout.cover {
   background-image: url("../assets/cover.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   h1 {
     /* 字体样式设置 */
     font-family: 'Smiley Sans Oblique';
