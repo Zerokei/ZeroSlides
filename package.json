@@ -19,15 +19,15 @@
     "commit": "git add . && git commit && git push origin"
   },
   "devDependencies": {
-    "playwright-chromium": "^1.14.1",
+    "playwright-chromium": "^1.40.1",
     "vite": "^5.0.11",
-    "vue": "^3.4.3"
+    "vue": "^3.4.5"
   },
   "dependencies": {
     "@slidev/types": "^0.22.7",
-    "codemirror-theme-vars": "^0.1.1",
-    "prism-theme-vars": "^0.2.2",
-    "theme-vitesse": "^0.1.12"
+    "codemirror-theme-vars": "^0.1.2",
+    "prism-theme-vars": "^0.2.4",
+    "theme-vitesse": "^0.1.14"
   },
   "type": "module"
 }
