@@ -1,5 +1,4 @@
 ---
-background: imgs/cover.png
 layout: cover
 # transition: fade
 # 导出设置

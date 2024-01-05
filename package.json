@@ -15,7 +15,8 @@
     "dev": "slidev",
     "export": "slidev export",
     "build": "slidev build",
-    "lint": "eslint '**/*.{js,ts,vue,json}'"
+    "lint": "eslint '**/*.{js,ts,vue,json}'",
+    "commit": "git add . && git commit"
   },
   "devDependencies": {
     "playwright-chromium": "^1.14.1",
