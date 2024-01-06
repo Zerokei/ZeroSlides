@@ -1,6 +1,6 @@
 {
   "name": "slidev-theme-zero-slide",
-  "version": "0.0.25",
+  "version": "0.0.26",
   "engines": {
     "node": ">=18.17.0",
     "slidev": ">=0.42.5"
