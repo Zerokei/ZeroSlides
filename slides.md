@@ -1,5 +1,5 @@
 ---
-layout: cover
+layout: zcover
 # transition: fade
 # 导出设置
 export:
@@ -54,4 +54,6 @@ layout: two-cols
 layout: center
 ---
 
-## 居中页面
+# 居中页面
+
+详细说明

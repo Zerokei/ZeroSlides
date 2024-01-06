@@ -12,7 +12,7 @@ const style = computed(() => handleBackground(props.background, true))
 </script>
 
 <template>
-  <div class="slidev-layout cover" :style="style">
+  <div class="slidev-layout zcover" :style="style">
     <div class="my-20 w-full">
       <slot />
     </div>
@@ -20,7 +20,7 @@ const style = computed(() => handleBackground(props.background, true))
 </template>
 
 <style lang="postcss">
-.slidev-layout.cover {
+.slidev-layout.zcover {
   background-image: url("https://images.zerokei.top/zero-slides/cover-yellow.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -28,10 +28,8 @@ const style = computed(() => handleBackground(props.background, true))
   h1 {
     /* 字体样式设置 */
     font-family: 'Smiley Sans Oblique';
-    @apply text-8xl leading-20 text-amber-900;
-    padding-bottom: 20px;
-    padding-right: 50px;
-    padding-left: 5px;
+    @apply text-7xl leading-20 text-amber-900;
+    @apply pb-0.5 pr-10 pl-5;
 
     /* 大标题下划线 */
     background-image: linear-gradient(90deg, #f080a5, #faa940);
