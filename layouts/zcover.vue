@@ -28,8 +28,8 @@ const style = computed(() => handleBackground(props.background, true))
   h1 {
     /* 字体样式设置 */
     font-family: 'Smiley Sans Oblique';
-    @apply text-7xl leading-20 text-amber-900;
-    @apply pb-0.5 pr-10 pl-5;
+    @apply text-8xl leading-20 text-amber-900;
+    @apply pb-3 pr-10 pl-5;
 
     /* 大标题下划线 */
     background-image: linear-gradient(90deg, #f080a5, #faa940);
