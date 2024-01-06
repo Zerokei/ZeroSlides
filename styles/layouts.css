@@ -34,6 +34,10 @@
   h6:not(.opacity-100) {
     @apply opacity-40;
   }
+
+  .footnotes {
+    @apply text-sm;
+  }
 }
 
 .slidev-layout.intro {
@@ -43,3 +47,4 @@
     @apply text-7xl leading-20;
   }
 }
+/* TODO: 将 cite 弄小 */

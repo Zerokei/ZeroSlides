@@ -12,7 +12,8 @@
   @apply flex items-center justify-center;
   @apply text-center;
   h1 {
-    @apply text-6xl mb-5;
+    font-family: 'Smiley Sans Oblique';
+    @apply text-6xl mb-5 text-amber-900;
     @apply inline-block;
 
     @apply pb-1 pr-5 pl-5;
