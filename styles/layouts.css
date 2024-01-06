@@ -36,7 +36,10 @@
   }
 
   .footnotes {
-    @apply text-sm;
+    @apply text-xs mt-5;
+  }
+  .footnotes p {
+    @apply mb-0 mt-0;
   }
 }
 
