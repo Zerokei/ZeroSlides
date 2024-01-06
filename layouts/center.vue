@@ -22,6 +22,12 @@
     background-size: 100% 50%;
     background-repeat: no-repeat;
   }
+  .footnote-ref {
+    @apply text-3xl;
+  }
+  .footnotes {
+    @apply text-sm;
+  }
 }
 
 

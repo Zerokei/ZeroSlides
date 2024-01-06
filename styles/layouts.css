@@ -35,9 +35,16 @@
     @apply opacity-40;
   }
 
-  .footnotes {
-    @apply text-xs mt-5;
+  
+  .footnotes-sep {
+    display: none;
   }
+  .footnotes {
+    @apply text-xs mt-5 text-gray-500;
+    @apply text-left;
+    @apply position-absolute bottom-10;
+  }
+
   .footnotes p {
     @apply mb-0 mt-0;
   }
